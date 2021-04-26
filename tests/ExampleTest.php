@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace Wyattcast44\ModelViewPresenter\Tests;
 
 class ExampleTest extends TestCase
 {

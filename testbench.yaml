@@ -1,2 +1,2 @@
 providers:
-  - VendorName\Skeleton\SkeletonServiceProvider
+  - Wyattcast44\ModelViewPresenter\ModelViewPresenterServiceProvider

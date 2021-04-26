@@ -1,17 +1,21 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "wyattcast44/laravel-model-view-presenters",
+    "description": "A neat package for creating view presenters in Laravel",
     "keywords": [
-        ":vendor_name",
+        "WyattCast44",
         "laravel",
-        "package_slug"
+        "laravel-model-view-presenters"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/wyattcast44/laravel-model-view-presenters",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Wyatt Castaneda",
+            "email": "wyatt.castaneda@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Codecourse",
             "role": "Developer"
         }
     ],
@@ -30,13 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Wyattcast44\\ModelViewPresenter\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Wyattcast44\\ModelViewPresenter\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +53,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Wyattcast44\\ModelViewPresenter\\ModelViewPresenterServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "ModelViewPresenter": "Wyattcast44\\ModelViewPresenter\\ModelViewPresenterFacade"
             }
         }
     },

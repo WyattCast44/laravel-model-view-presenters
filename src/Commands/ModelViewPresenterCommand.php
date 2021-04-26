@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Wyattcast44\ModelViewPresenter\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ModelViewPresenterCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-model-view-presenters';
 
     public $description = 'My command';
 
